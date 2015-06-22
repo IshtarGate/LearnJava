@@ -1,5 +1,16 @@
 All examples are from [Mastering Markdown](https://guides.github.com/features/mastering-markdown/#what)
 
+##Lists Example
+* Item 1
+* Item 2
+	1. Sub-item 1
+	2. Sub-item 2
+
+##Block Quotes
+
+> We're living the future so
+> the present is out past.
+
 ##*Italics Example*
 
 ##**Bold Example**
