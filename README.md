@@ -1,27 +1,4 @@
 # LearnJava
-Code created while reading Java How to Program
+Code created while reading Java How to Program by Deitel
 
-
-
-
-
-
-
-##Task list
-- [ ] Get shit done
-- [x] Shit got done :sparkles
-
-
-
-##Table
-Treatement|Outcome
-----------|-------
-A|Bad
-B|Good
-
-
-
-##Example of code
-```
-Example of code
-```
+Feel Free to copy my examples or ask me questions about how I did them.
