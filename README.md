@@ -9,7 +9,7 @@ Code created while reading Java How to Program
 
 ##Table
 Treatement|Outcome
-------------------
+----------|-------
 A|Bad
 B|Good
 
