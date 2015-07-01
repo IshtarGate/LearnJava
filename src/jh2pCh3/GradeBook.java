@@ -4,8 +4,9 @@ package jh2pCh3;
 public class GradeBook
 {
 	// display a welcome message to the GradeBook user
-	public void displayMessage()
+	public void displayMessage( String courseName)
 	{
-		System.out.println( "Welcome to the Grade Book!" );
+		System.out.printf( "Welcome to the grade book for\n%s !\n",
+				courseName );
 	} // end method displayMessage
 } // end class GradeBook
