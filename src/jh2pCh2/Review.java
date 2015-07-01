@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Review 
 {
-	private int c;
+
 	
 	public static void main( String[] args)
 	{
@@ -45,8 +45,9 @@ public class Review
 		
 		System.out.printf("%d is your answer",result);
 		
+		input.close();
+		myscanner.close();
 	}
-	
 }
 
 
