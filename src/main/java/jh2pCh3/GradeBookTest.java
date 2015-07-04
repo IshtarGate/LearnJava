@@ -16,11 +16,12 @@ public class GradeBookTest
 		
 		// prompt for and input course name
 		System.out.println( "Please enter the course names:" );
-		String nameOfCourse = input.nextLine(); // read a line of text
+		String tempCourseName = input.nextLine(); // read a line of text
+		myGradeBook.setCourseName(tempCourseName);
 		System.out.println(); // outputs a blank line
 		
 		// call myGradeBook's displayMessage method
 		// and pass name nameOfCourse as an argument
-		myGradeBook.displayMessage( nameOfCourse );				
+		myGradeBook.displayMessage();
 	} // end main
 } // end class GradeBookTest
