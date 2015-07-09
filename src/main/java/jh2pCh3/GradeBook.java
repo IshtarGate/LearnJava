@@ -1,10 +1,12 @@
 package jh2pCh3;
-// GradeBook.java 
-// GradeBook class that contains a courseName instance variable and methods to set and get its value.
+// Fig. 3.10: GradeBook.java // GradeBook class with a constructor to initialize the course name.
 
 public class GradeBook
 {
 	private String courseName; // course name for this GradeBook
+	
+	// constructor
+	
 	
 	// method to set the course name
 	public void setCourseName ( String name)

@@ -1,6 +1,5 @@
 package jh2pCh3;
-// Fig. 3.5: GradeBookTest.java 
-//Creating a GradeBook object and pass a String to // ists displayMessage method.
+// Fig. 3.8: GradeBookTest.java // Creating and manipulating a GradeBook object.
 import java.util.Scanner; // program uses scanner
 
 public class GradeBookTest
@@ -14,14 +13,20 @@ public class GradeBookTest
 		// create a GradeBook object and assign it to myGradeBook
 		GradeBook myGradeBook = new GradeBook();
 		
-		// prompt for and input course name
-		System.out.println( "Please enter the course names:" );
-		String tempCourseName = input.nextLine(); // read a line of text
-		myGradeBook.setCourseName(tempCourseName);
+		//display initial value of courseName
+		System.out.printf( "Initial course name is: %s\n\n",
+				myGradeBook.getCourseName() );
+		
+		// prompt for and read course name
+		System.out.println( "Please enter the course name:" );
+		String theName = input.nextLine(); // read a line of text
+		myGradeBook.setCourseName( theName ); // set the course name
 		System.out.println(); // outputs a blank line
 		
-		// call myGradeBook's displayMessage method
-		// and pass name nameOfCourse as an argument
+		// display welcome message after specifying course name
 		myGradeBook.displayMessage();
+		
+		// close resource leak caused by Scanner
+		input.close();
 	} // end main
 } // end class GradeBookTest
