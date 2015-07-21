@@ -1,5 +1,5 @@
-package jh2pCh3;
-// Fig. 3.10: GradeBook.java // GradeBook class with a constructor to initialize the course name.
+package jh2pCh3; // Fig. 3.10: GradeBook.java
+// GradeBook class with a constructor to initialize the course name.
 
 public class GradeBook
 {
